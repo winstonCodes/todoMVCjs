@@ -217,11 +217,9 @@
 			}
 
 			if (e.which === ESCAPE_KEY) {//when you press escape you dont want the data to be saved, which setting 'abort' to true accomplishes
-
+				e.target.abort = true;
 				e.target.blur();
-				var eventElement = e.target
-				eventElement.abort = true;
-				// eventElement.blur();
+
 			}
 		},
 		update: function (e) {
