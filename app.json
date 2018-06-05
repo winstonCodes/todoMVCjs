@@ -1,7 +1,7 @@
 {
   "name": "todoMVC in vanilla javascript",
   "description": "An open-source todo app re-written by Winston",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "repository": "https://github.com/winstonCodes/todoMVCjs",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
