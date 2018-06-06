@@ -1,4 +1,6 @@
 /*global jQuery, Handlebars, Router */
+jQuery(function ($) {
+	'use strict';
 
 	Handlebars.registerHelper('eq', function (a, b, options) {
 		return a === b ? options.fn(this) : options.inverse(this);
@@ -253,3 +255,5 @@
 	};
 
 	App.init();
+
+	});
